@@ -111,7 +111,7 @@ section {
     display: inline-block;
     padding: 10px 20px;
     color: white;
-    background-color: #7cb342;
+    background-color: ##006A4E;
     border-radius: 5px;
     text-decoration: none;
     font-size: 18px;
@@ -120,7 +120,7 @@ section {
 }
 
 .btn:hover {
-    background-color: #a0d638;
+    background-color: #49c5a4;
 }
 
 .products {
