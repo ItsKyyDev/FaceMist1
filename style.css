@@ -82,12 +82,15 @@ section {
     flex-wrap: wrap;
     background-color: #f0f5e9;
     padding: 40px 0;
+    margin: 15px;
 }
 
 .hero-content .home-text {
     max-width: 50%;
     text-align: left;
     font-family: 'Merriweather', serif;
+    padding: 2rem 2rem;
+    margin: 2rem;
 }
 
 .hero-content .home-text h1 {
