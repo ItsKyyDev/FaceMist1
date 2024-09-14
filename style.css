@@ -9,10 +9,10 @@ body {
 nav {
     background-color: #4c8056;
     padding: 10px 20px;
-    position: sticky; /* Navbar tetap terlihat saat scroll */
+    position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek elegan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-container {
@@ -130,9 +130,10 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Jarak antar produk */
+    gap: 20px;
 }
 
+/* Product styling with shadow and hover effect */
 .product {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -141,15 +142,20 @@ section {
     padding: 20px;
     text-align: center;
     width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Menambahkan shadow lebih tebal */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-12px); /* Efek timbul lebih besar saat hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Shadow lebih tebal saat hover */
 }
 
 .product img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px; /* Spacing between image and button */
+    margin-bottom: 20px;
 }
 
 .product h3 {
@@ -163,9 +169,10 @@ section {
 }
 
 .product .btn {
-    margin-top: 10px; /* Jarak tambahan di mobile */
+    margin-top: 10px;
 }
 
+/* About and Contact Sections */
 #about, #contact {
     background-color: #f0f0f0;
     padding: 60px 20px;
@@ -247,11 +254,11 @@ footer {
     }
 
     .product img {
-        margin-bottom: 20px; /* Spacing between image and button */
+        margin-bottom: 20px;
     }
 
     .product .btn {
-        margin-top: 15px; /* Ensure consistent spacing */
+        margin-top: 15px;
     }
 }
 
