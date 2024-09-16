@@ -148,7 +148,7 @@ section {
 
 .product:hover {
     transform: translateY(-15px); 
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4); /* Shadow lebih tebal dan besar saat hover */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4); 
 }
 
 .product img {
