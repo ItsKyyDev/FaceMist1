@@ -202,7 +202,7 @@ footer {
         width: 100%;
         background-color: #4c8056;
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 0;
     }
 
@@ -222,7 +222,7 @@ footer {
     .hero-content {
         flex-direction: column;
         text-align: center;
-        padding: 30px 20px;
+        padding: 30px 30px;
     }
 
     .hero-content .home-text {
