@@ -226,8 +226,8 @@ footer {
     }
 
     .hero-content .home-text {
-        max-width: 95%; 
-        padding: 10px 10px; 
+        max-width: 95%; /* Mengurangi batas lebar agar lebih lebar */
+        padding: 10px 10px; /* Mengurangi padding di samping */
         text-align: center;
     }
 
